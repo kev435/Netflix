@@ -1,0 +1,91 @@
+*{
+    color:white;
+}
+
+body {
+    background-image: url("./back.jpg");
+  }
+
+.container{
+display: flex;
+justify-content: center;
+}
+
+.png{
+    width:100px;
+    height:60px;
+}
+
+.cn1{
+    display:flex;
+    justify-content: center;
+    color: white;
+}
+
+.svartBG {
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 100vh;
+    margin: 20px;
+}
+
+
+.container2 {
+    background-color: rgba(0, 0, 0, 0.8);
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.container2 * {
+    margin: 10px;
+}
+
+.name {
+    padding-top: 10px;
+}
+input {
+    width: 95%;
+    height: 40px;
+    color: lightgray;
+}
+.nr1 {
+    color:black;
+    width: 90%;
+    height: 40px;
+}
+
+option {
+    color: black;
+}
+
+#movie1, #movie2, #movie3 {
+    width: 20px;
+    height: 18px;
+}
+
+#radio1, #radio2, #radio3 {
+    width:20px;
+    height: 18px;
+}
+
+TEXTAREA{
+    width:90%;
+    height:70px;
+    color:lightgray;
+}
+ button {
+    background-color: red;
+    width: 40%;
+    height: 40px;
+    border-radius: 30px;
+ }
+.bt1 {
+    margin-left: 35%;
+   
+}
+/* 
+
+C. type SELECT
+M. Type check box
+Gender Radio button
+Text Area
+ */
